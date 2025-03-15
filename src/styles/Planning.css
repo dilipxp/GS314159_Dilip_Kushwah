@@ -1,0 +1,12 @@
+/* src/styles/Planning.css */
+
+.page.planning-page {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.ag-grid-container {
+  height: 500px;
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+/* src/styles/Charts.css */
+
+.page.charts-page {
+  background-color: #FAF9F6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #FAF9F6;
+  margin-bottom: 20px;
+}
+
+.recharts-responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

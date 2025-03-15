@@ -1,0 +1,27 @@
+.page.store-page {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevents page scrolling */
+}
+
+  /* .store-page {
+    padding: 20px;
+  } */
+  
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete-btn:hover {
+    background: darkred;
+  }
+  
