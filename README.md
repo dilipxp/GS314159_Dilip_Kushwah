@@ -10,8 +10,8 @@ Ensure you have the following installed on your machine:
 ### Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
-   cd <project_directory>
+   git clone https://github.com/dilipxp/GS314159_Dilip_Kushwah.git
+   cd GS314159_Dilip_Kushwah
    ```
 2. Install dependencies:
    ```sh
