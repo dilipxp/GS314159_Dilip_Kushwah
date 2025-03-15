@@ -1,54 +1,56 @@
-# React + TypeScript + Vite
+# React Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+### Prerequisites
+Ensure you have the following installed on your machine:
+- Node.js (v16+ recommended)
+- npm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone <repository_url>
+   cd <project_directory>
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+### Running the Project
+To start the development server:
+```sh
+npm npm run dev
+```
+This will run the project on `http://localhost:5173/` (or another available port).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Testing
+To run tests:
+```sh
+npm test
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Features & Proficiency Demonstration
+### Key Accomplishments
+1. **Dynamic Data Loading from Excel**
+   - Implemented Excel file parsing using `xlsx` to dynamically load SKU and Store data.
+   - Demonstrates ability to handle file reading and structured data processing.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **AG Grid Integration**
+   - Used `ag-grid-react` to display tabular data efficiently.
+   - Implemented sorting, filtering, row dragging, and action buttons (like delete), showing proficiency in UI component customization.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+3. **State Management & Performance Optimization**
+   - Used `useState`, `useEffect`, and `useCallback` to manage data efficiently.
+   - Avoided unnecessary re-renders by optimizing function dependencies and state updates.
+
+## Potential Improvements
+If more development time were available, I would:
+- **Enhance UI/UX**: Improve styling and responsiveness.
+- **Add Data Persistence**: Implement local storage or a backend API to save changes.
+- **Implement Authentication**: Secure data access with user authentication.
+
+## Feedback on the Challenge (Optional)
+- The challenge was well-structured and tested practical React and TypeScript skills.
+- Providing sample API endpoints instead of an Excel file could make the task more relevant to real-world applications.
