@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // Disabling TypeScript's explicit `any` warnings
 
 // Importing React and necessary hooks

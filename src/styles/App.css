@@ -16,5 +16,6 @@ src/styles/App.css
     overflow: hidden; /* Prevent scrolling here */
     display: flex;
     flex-direction: column;
+    background-color: #cacaca;
   }
   
